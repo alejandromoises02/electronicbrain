@@ -1,0 +1,403 @@
+$blanco: #fff;
+$negro : #000;
+$azul: #0575E6;
+$gris: rgb(240, 240, 240);
+$verde: #00F260;
+$dark: #252525;
+
+
+$IBM: 'IBM Plex Sans', sans-serif;
+$Poppins: 'Poppins', sans-serif;
+$Raleway: 'Raleway', sans-serif;
+
+h1 {
+    font-family: $IBM;
+    font-size: 40px;
+    display: inline-block;
+    color: $negro;
+    background: $blanco;
+    mix-blend-mode: multiply;
+    position: relative;
+    
+}
+
+h1:before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, $azul, $verde);
+    mix-blend-mode: screen;
+    position: absolute;
+}
+
+header{
+    display: grid;
+    grid-template-columns: 5fr 6fr 1fr;
+}
+
+
+.fondoBlanco {
+    background-color: $blanco;
+  }
+
+.ColorText {
+  color: $azul !important;
+}
+
+@mixin imgBack($ref) {
+  background-image: url($ref);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:center;
+  height: 600px;
+}
+
+.imgBackIndex{
+  @include imgBack("../imagen/pcbfondo2.jpg");
+}
+
+.imgBackNosotros{
+  @include imgBack("../imagen/pcbfondo4.jpg");
+}
+
+.imgBackServicios{
+  @include imgBack("../imagen/pcbfondo3.jpg");
+}
+
+.imgBackContacto{
+  @include imgBack("../imagen/contacto.jpg");
+}
+
+
+a{
+    font-family: $Poppins;
+}
+
+  .heroInicio{
+    height: 650px;
+    padding-top: 200px;
+    padding-bottom: 100px;  
+    h3{
+      color: $blanco;
+      font-size: 24px;
+      font-family: $Poppins;
+      margin-bottom: 20px;
+    }
+    h2{
+      color: $blanco;
+      font-size: 48px;
+      font-family: $Poppins;
+    }
+  }
+
+.contactoBoton {
+  background: $azul;
+  font-family: $Raleway;
+  color: $blanco;
+  border-radius: 50px;
+  padding: 10px 20px 10px 20px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 15px;
+  transition: all 2s;
+  align-self: center;
+  justify-self: center;
+
+}
+
+.contactoBotonHero{
+  background-color: rgba(163, 174, 238, 0.5);
+  border: solid 2px $azul;
+  font-size: 18px;
+  font-family: $Raleway;
+  font-weight: bold;
+  color: $blanco;
+  border-radius: 50px;
+  padding: 10px 20px 10px 20px;
+  margin-top: 20px;
+  transition: all 2s;
+}
+
+.contactoBoton:hover {
+  background: linear-gradient(to right, $azul 40%, $verde);
+  color: $blanco;
+}
+
+.contactoBotonHero:hover {
+  background: linear-gradient(to right, $azul 40%, $verde);
+  color: $blanco;
+}  
+
+.tituloPrincipal{
+  padding-top: 160px;
+  h2{
+    color: $blanco;
+    font-size: 55px;
+    font-family: $Poppins;
+  }
+  h4{
+    color: $blanco;
+    font-size: 24px;
+    font-family: $Poppins;
+    margin-bottom: 20px;
+  }
+  h3{
+    color: $blanco;
+    font-size: 40px;
+    font-family: $Poppins;
+  }
+}
+
+.tituloMain{
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+.tituloMain h2 {
+  font-size: 14px;
+  font-weight: 500;
+  padding: 0;
+  line-height: 1px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #aaaaaa;
+  font-family: $Poppins; 
+}
+
+.tituloMain h3 {
+  letter-spacing: 2px;
+  color: $negro;
+  font-family: $Poppins; 
+}
+
+.tituloMain h2::after {
+  content: "";
+  width: 120px;
+  height: 2px;
+  display: inline-block;
+  background: $azul;
+  margin: 4px 10px;
+  }
+
+.marketingArea{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px;
+  h3{
+  border-radius: 5px;
+  background-color: $gris;
+  text-align: center;
+  height: 70px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  font-family: $Poppins; 
+  }
+  h4{
+    text-align: center;
+    margin-bottom: 10px;
+    font-family: $IBM;
+  }
+  p{
+    color: black;
+    font-family: $IBM;
+    padding:10px;
+    display: inline-block;
+    line-height: 1.6;
+    text-align: center;
+    height: 150px;
+}
+}
+
+.iconBox{
+    font-family: $Poppins; 
+    display: flex;
+    align-items: center;
+    transition: 0.5s;
+    border: 1px solid $gris;
+    margin-bottom: 20px;
+}
+
+.iconBox:hover {
+    border-color: $verde;
+    color: $verde;
+}
+
+.iconContacto{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: $Raleway;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  font-size: 20px;
+}
+
+footer{
+  background-color: $dark;
+  color: $blanco;
+  font-family: $Poppins;
+  text-align: center;
+  margin-top: 30px;
+  padding-top: 30px;
+  h2{
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
+  p{
+    font-size: 15px;
+  }
+  a{
+    color: $azul;
+  }
+  .listSecciones{
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.biggerBlock{
+  background-color: $azul;
+  border: solid $azul 3px;
+  border-radius: 5px;
+}
+
+.smallerBlock{
+  border: solid $gris 3px;
+  border-radius: 5px;
+}
+
+.conocenosArea{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  h3{
+  border-radius: 5px;
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  font-family: $Poppins; 
+  }
+  p{
+    color: black;
+    font-family: $IBM;
+    padding:10px;
+    margin: 10px;
+    line-height: 1.6;
+}
+}
+
+.iconElec{
+  display: flex;
+  align-items: center;
+  font-family: $Raleway;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  font-size: 20px;
+}
+
+.teamArea{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: solid $gris 1px;
+  border-radius: 5px;
+  h4{
+    text-align: center;
+    font-family: $IBM;
+  }
+  p{
+    color: black;
+    font-family: $IBM;
+    padding:10px;
+    display: inline-block;
+    line-height: 1.6;
+    text-align: center;
+}
+  .in{
+    height: 30px;
+    width: 40px;
+  }
+}
+
+@each $servicio in hardware, firmware, web{
+  ##{$servicio}Area{
+    display: flex;
+    flex-direction: column;
+    border: solid $gris 3px;
+    margin: 30px;
+    padding: 0px;
+    h3{
+      border: solid $gris 3px;
+      background-color: $gris;
+      justify-self: stretch;
+      align-self: stretch;
+      text-align: center;
+    }
+    img{
+      justify-self: center;
+      align-self: center;
+    }
+  }
+}
+
+.boxTestimonios{
+  display: flex;
+  flex-direction: column;
+  height: 250px;
+  h3{
+    color: black;
+    font-family: $IBM;
+    font-size: 25px;
+  }
+  h4{
+    color: black;
+    font-family: $IBM;
+    font-size: 20px;
+  }
+  p{
+    color: black;
+    font-family: $IBM;
+    line-height: 1.6;
+    font-size: 15px;
+    overflow: auto;
+  }
+}
+
+.blog .carousel-indicators {
+	left: 0;
+	top: auto;
+  bottom: -40px;
+
+}
+
+.blog .carousel-indicators li {
+    background: #a3a3a3;
+    border-radius: 50%;
+    width: 8px;
+    height: 8px;
+}
+
+.blog .carousel-indicators .active {
+background: #707070;
+}
+
+.formArea{
+  display: flex;
+  margin-bottom: 30px;
+  .iconForm{
+    display: grid;
+
+    margin-bottom: 50px;
+    align-items: center;
+    justify-items: center;
+    h3{
+      color: black;
+      font-family: $IBM;
+      font-size: 20px;
+    }
+  }
+}
+

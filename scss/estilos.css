@@ -1,0 +1,435 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/RFI4\/Documents\/za\/Curso\%20desarrollo\%20web\%20coder\%20house\/Proyecto\/Proyecto\/scss\/estilos\.scss}line{font-family:\0000313}}
+h1 {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 40px;
+  display: inline-block;
+  color: #000;
+  background: #fff;
+  mix-blend-mode: multiply;
+  position: relative; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/RFI4\/Documents\/za\/Curso\%20desarrollo\%20web\%20coder\%20house\/Proyecto\/Proyecto\/scss\/estilos\.scss}line{font-family:\0000324}}
+h1:before {
+  content: '';
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to right, #0575E6, #00F260);
+  mix-blend-mode: screen;
+  position: absolute; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/RFI4\/Documents\/za\/Curso\%20desarrollo\%20web\%20coder\%20house\/Proyecto\/Proyecto\/scss\/estilos\.scss}line{font-family:\0000333}}
+header {
+  display: grid;
+  grid-template-columns: 5fr 6fr 1fr; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/RFI4\/Documents\/za\/Curso\%20desarrollo\%20web\%20coder\%20house\/Proyecto\/Proyecto\/scss\/estilos\.scss}line{font-family:\0000339}}
+.fondoBlanco {
+  background-color: #fff; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/RFI4\/Documents\/za\/Curso\%20desarrollo\%20web\%20coder\%20house\/Proyecto\/Proyecto\/scss\/estilos\.scss}line{font-family:\0000343}}
+.ColorText {
+  color: #0575E6 !important; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/RFI4\/Documents\/za\/Curso\%20desarrollo\%20web\%20coder\%20house\/Proyecto\/Proyecto\/scss\/estilos\.scss}line{font-family:\0000356}}
+.imgBackIndex {
+  background-image: url("../imagen/pcbfondo2.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 600px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/RFI4\/Documents\/za\/Curso\%20desarrollo\%20web\%20coder\%20house\/Proyecto\/Proyecto\/scss\/estilos\.scss}line{font-family:\0000360}}
+.imgBackNosotros {
+  background-image: url("../imagen/pcbfondo4.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 600px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/RFI4\/Documents\/za\/Curso\%20desarrollo\%20web\%20coder\%20house\/Proyecto\/Proyecto\/scss\/estilos\.scss}line{font-family:\0000364}}
+.imgBackServicios {
+  background-image: url("../imagen/pcbfondo3.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 600px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/RFI4\/Documents\/za\/Curso\%20desarrollo\%20web\%20coder\%20house\/Proyecto\/Proyecto\/scss\/estilos\.scss}line{font-family:\0000368}}
+.imgBackContacto {
+  background-image: url("../imagen/contacto.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 600px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/RFI4\/Documents\/za\/Curso\%20desarrollo\%20web\%20coder\%20house\/Proyecto\/Proyecto\/scss\/estilos\.scss}line{font-family:\0000373}}
+a {
+  font-family: "Poppins", sans-serif; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/RFI4\/Documents\/za\/Curso\%20desarrollo\%20web\%20coder\%20house\/Proyecto\/Proyecto\/scss\/estilos\.scss}line{font-family:\0000377}}
+.heroInicio {
+  height: 650px;
+  padding-top: 200px;
+  padding-bottom: 100px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/RFI4\/Documents\/za\/Curso\%20desarrollo\%20web\%20coder\%20house\/Proyecto\/Proyecto\/scss\/estilos\.scss}line{font-family:\0000381}}
+  .heroInicio h3 {
+    color: #fff;
+    font-size: 24px;
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 20px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/RFI4\/Documents\/za\/Curso\%20desarrollo\%20web\%20coder\%20house\/Proyecto\/Proyecto\/scss\/estilos\.scss}line{font-family:\0000387}}
+  .heroInicio h2 {
+    color: #fff;
+    font-size: 48px;
+    font-family: "Poppins", sans-serif; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/RFI4\/Documents\/za\/Curso\%20desarrollo\%20web\%20coder\%20house\/Proyecto\/Proyecto\/scss\/estilos\.scss}line{font-family:\0000394}}
+.contactoBoton {
+  background: #0575E6;
+  font-family: "Raleway", sans-serif;
+  color: #fff;
+  border-radius: 50px;
+  padding: 10px 20px 10px 20px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 15px;
+  transition: all 2s;
+  align-self: center;
+  justify-self: center; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/RFI4\/Documents\/za\/Curso\%20desarrollo\%20web\%20coder\%20house\/Proyecto\/Proyecto\/scss\/estilos\.scss}line{font-family:\00003109}}
+.contactoBotonHero {
+  background-color: rgba(163, 174, 238, 0.5);
+  border: solid 2px #0575E6;
+  font-size: 18px;
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  color: #fff;
+  border-radius: 50px;
+  padding: 10px 20px 10px 20px;
+  margin-top: 20px;
+  transition: all 2s; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/RFI4\/Documents\/za\/Curso\%20desarrollo\%20web\%20coder\%20house\/Proyecto\/Proyecto\/scss\/estilos\.scss}line{font-family:\00003122}}
+.contactoBoton:hover {
+  background: linear-gradient(to right, #0575E6 40%, #00F260);
+  color: #fff; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/RFI4\/Documents\/za\/Curso\%20desarrollo\%20web\%20coder\%20house\/Proyecto\/Proyecto\/scss\/estilos\.scss}line{font-family:\00003127}}
+.contactoBotonHero:hover {
+  background: linear-gradient(to right, #0575E6 40%, #00F260);
+  color: #fff; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/RFI4\/Documents\/za\/Curso\%20desarrollo\%20web\%20coder\%20house\/Proyecto\/Proyecto\/scss\/estilos\.scss}line{font-family:\00003132}}
+.tituloPrincipal {
+  padding-top: 160px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/RFI4\/Documents\/za\/Curso\%20desarrollo\%20web\%20coder\%20house\/Proyecto\/Proyecto\/scss\/estilos\.scss}line{font-family:\00003134}}
+  .tituloPrincipal h2 {
+    color: #fff;
+    font-size: 55px;
+    font-family: "Poppins", sans-serif; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/RFI4\/Documents\/za\/Curso\%20desarrollo\%20web\%20coder\%20house\/Proyecto\/Proyecto\/scss\/estilos\.scss}line{font-family:\00003139}}
+  .tituloPrincipal h4 {
+    color: #fff;
+    font-size: 24px;
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 20px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/RFI4\/Documents\/za\/Curso\%20desarrollo\%20web\%20coder\%20house\/Proyecto\/Proyecto\/scss\/estilos\.scss}line{font-family:\00003145}}
+  .tituloPrincipal h3 {
+    color: #fff;
+    font-size: 40px;
+    font-family: "Poppins", sans-serif; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/RFI4\/Documents\/za\/Curso\%20desarrollo\%20web\%20coder\%20house\/Proyecto\/Proyecto\/scss\/estilos\.scss}line{font-family:\00003152}}
+.tituloMain {
+  margin-bottom: 40px;
+  margin-top: 40px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/RFI4\/Documents\/za\/Curso\%20desarrollo\%20web\%20coder\%20house\/Proyecto\/Proyecto\/scss\/estilos\.scss}line{font-family:\00003156}}
+.tituloMain h2 {
+  font-size: 14px;
+  font-weight: 500;
+  padding: 0;
+  line-height: 1px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #aaaaaa;
+  font-family: "Poppins", sans-serif; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/RFI4\/Documents\/za\/Curso\%20desarrollo\%20web\%20coder\%20house\/Proyecto\/Proyecto\/scss\/estilos\.scss}line{font-family:\00003167}}
+.tituloMain h3 {
+  letter-spacing: 2px;
+  color: #000;
+  font-family: "Poppins", sans-serif; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/RFI4\/Documents\/za\/Curso\%20desarrollo\%20web\%20coder\%20house\/Proyecto\/Proyecto\/scss\/estilos\.scss}line{font-family:\00003173}}
+.tituloMain h2::after {
+  content: "";
+  width: 120px;
+  height: 2px;
+  display: inline-block;
+  background: #0575E6;
+  margin: 4px 10px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/RFI4\/Documents\/za\/Curso\%20desarrollo\%20web\%20coder\%20house\/Proyecto\/Proyecto\/scss\/estilos\.scss}line{font-family:\00003182}}
+.marketingArea {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/RFI4\/Documents\/za\/Curso\%20desarrollo\%20web\%20coder\%20house\/Proyecto\/Proyecto\/scss\/estilos\.scss}line{font-family:\00003187}}
+  .marketingArea h3 {
+    border-radius: 5px;
+    background-color: #f0f0f0;
+    text-align: center;
+    height: 70px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-family: "Poppins", sans-serif; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/RFI4\/Documents\/za\/Curso\%20desarrollo\%20web\%20coder\%20house\/Proyecto\/Proyecto\/scss\/estilos\.scss}line{font-family:\00003196}}
+  .marketingArea h4 {
+    text-align: center;
+    margin-bottom: 10px;
+    font-family: "IBM Plex Sans", sans-serif; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/RFI4\/Documents\/za\/Curso\%20desarrollo\%20web\%20coder\%20house\/Proyecto\/Proyecto\/scss\/estilos\.scss}line{font-family:\00003201}}
+  .marketingArea p {
+    color: black;
+    font-family: "IBM Plex Sans", sans-serif;
+    padding: 10px;
+    display: inline-block;
+    line-height: 1.6;
+    text-align: center;
+    height: 150px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/RFI4\/Documents\/za\/Curso\%20desarrollo\%20web\%20coder\%20house\/Proyecto\/Proyecto\/scss\/estilos\.scss}line{font-family:\00003212}}
+.iconBox {
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  align-items: center;
+  transition: 0.5s;
+  border: 1px solid #f0f0f0;
+  margin-bottom: 20px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/RFI4\/Documents\/za\/Curso\%20desarrollo\%20web\%20coder\%20house\/Proyecto\/Proyecto\/scss\/estilos\.scss}line{font-family:\00003221}}
+.iconBox:hover {
+  border-color: #00F260;
+  color: #00F260; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/RFI4\/Documents\/za\/Curso\%20desarrollo\%20web\%20coder\%20house\/Proyecto\/Proyecto\/scss\/estilos\.scss}line{font-family:\00003226}}
+.iconContacto {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Raleway", sans-serif;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  font-size: 20px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/RFI4\/Documents\/za\/Curso\%20desarrollo\%20web\%20coder\%20house\/Proyecto\/Proyecto\/scss\/estilos\.scss}line{font-family:\00003236}}
+footer {
+  background-color: #252525;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  margin-top: 30px;
+  padding-top: 30px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/RFI4\/Documents\/za\/Curso\%20desarrollo\%20web\%20coder\%20house\/Proyecto\/Proyecto\/scss\/estilos\.scss}line{font-family:\00003243}}
+  footer h2 {
+    font-size: 20px;
+    margin-bottom: 30px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/RFI4\/Documents\/za\/Curso\%20desarrollo\%20web\%20coder\%20house\/Proyecto\/Proyecto\/scss\/estilos\.scss}line{font-family:\00003247}}
+  footer p {
+    font-size: 15px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/RFI4\/Documents\/za\/Curso\%20desarrollo\%20web\%20coder\%20house\/Proyecto\/Proyecto\/scss\/estilos\.scss}line{font-family:\00003250}}
+  footer a {
+    color: #0575E6; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/RFI4\/Documents\/za\/Curso\%20desarrollo\%20web\%20coder\%20house\/Proyecto\/Proyecto\/scss\/estilos\.scss}line{font-family:\00003253}}
+  footer .listSecciones {
+    display: flex;
+    flex-direction: column; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/RFI4\/Documents\/za\/Curso\%20desarrollo\%20web\%20coder\%20house\/Proyecto\/Proyecto\/scss\/estilos\.scss}line{font-family:\00003259}}
+.biggerBlock {
+  background-color: #0575E6;
+  border: solid #0575E6 3px;
+  border-radius: 5px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/RFI4\/Documents\/za\/Curso\%20desarrollo\%20web\%20coder\%20house\/Proyecto\/Proyecto\/scss\/estilos\.scss}line{font-family:\00003265}}
+.smallerBlock {
+  border: solid #f0f0f0 3px;
+  border-radius: 5px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/RFI4\/Documents\/za\/Curso\%20desarrollo\%20web\%20coder\%20house\/Proyecto\/Proyecto\/scss\/estilos\.scss}line{font-family:\00003270}}
+.conocenosArea {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/RFI4\/Documents\/za\/Curso\%20desarrollo\%20web\%20coder\%20house\/Proyecto\/Proyecto\/scss\/estilos\.scss}line{font-family:\00003276}}
+  .conocenosArea h3 {
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-family: "Poppins", sans-serif; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/RFI4\/Documents\/za\/Curso\%20desarrollo\%20web\%20coder\%20house\/Proyecto\/Proyecto\/scss\/estilos\.scss}line{font-family:\00003283}}
+  .conocenosArea p {
+    color: black;
+    font-family: "IBM Plex Sans", sans-serif;
+    padding: 10px;
+    margin: 10px;
+    line-height: 1.6; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/RFI4\/Documents\/za\/Curso\%20desarrollo\%20web\%20coder\%20house\/Proyecto\/Proyecto\/scss\/estilos\.scss}line{font-family:\00003292}}
+.iconElec {
+  display: flex;
+  align-items: center;
+  font-family: "Raleway", sans-serif;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  font-size: 20px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/RFI4\/Documents\/za\/Curso\%20desarrollo\%20web\%20coder\%20house\/Proyecto\/Proyecto\/scss\/estilos\.scss}line{font-family:\00003301}}
+.teamArea {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: solid #f0f0f0 1px;
+  border-radius: 5px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/RFI4\/Documents\/za\/Curso\%20desarrollo\%20web\%20coder\%20house\/Proyecto\/Proyecto\/scss\/estilos\.scss}line{font-family:\00003307}}
+  .teamArea h4 {
+    text-align: center;
+    font-family: "IBM Plex Sans", sans-serif; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/RFI4\/Documents\/za\/Curso\%20desarrollo\%20web\%20coder\%20house\/Proyecto\/Proyecto\/scss\/estilos\.scss}line{font-family:\00003311}}
+  .teamArea p {
+    color: black;
+    font-family: "IBM Plex Sans", sans-serif;
+    padding: 10px;
+    display: inline-block;
+    line-height: 1.6;
+    text-align: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/RFI4\/Documents\/za\/Curso\%20desarrollo\%20web\%20coder\%20house\/Proyecto\/Proyecto\/scss\/estilos\.scss}line{font-family:\00003319}}
+  .teamArea .in {
+    height: 30px;
+    width: 40px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/RFI4\/Documents\/za\/Curso\%20desarrollo\%20web\%20coder\%20house\/Proyecto\/Proyecto\/scss\/estilos\.scss}line{font-family:\00003326}}
+#hardwareArea {
+  display: flex;
+  flex-direction: column;
+  border: solid #f0f0f0 3px;
+  margin: 30px;
+  padding: 0px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/RFI4\/Documents\/za\/Curso\%20desarrollo\%20web\%20coder\%20house\/Proyecto\/Proyecto\/scss\/estilos\.scss}line{font-family:\00003332}}
+  #hardwareArea h3 {
+    border: solid #f0f0f0 3px;
+    background-color: #f0f0f0;
+    justify-self: stretch;
+    align-self: stretch;
+    text-align: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/RFI4\/Documents\/za\/Curso\%20desarrollo\%20web\%20coder\%20house\/Proyecto\/Proyecto\/scss\/estilos\.scss}line{font-family:\00003339}}
+  #hardwareArea img {
+    justify-self: center;
+    align-self: center; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/RFI4\/Documents\/za\/Curso\%20desarrollo\%20web\%20coder\%20house\/Proyecto\/Proyecto\/scss\/estilos\.scss}line{font-family:\00003326}}
+#firmwareArea {
+  display: flex;
+  flex-direction: column;
+  border: solid #f0f0f0 3px;
+  margin: 30px;
+  padding: 0px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/RFI4\/Documents\/za\/Curso\%20desarrollo\%20web\%20coder\%20house\/Proyecto\/Proyecto\/scss\/estilos\.scss}line{font-family:\00003332}}
+  #firmwareArea h3 {
+    border: solid #f0f0f0 3px;
+    background-color: #f0f0f0;
+    justify-self: stretch;
+    align-self: stretch;
+    text-align: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/RFI4\/Documents\/za\/Curso\%20desarrollo\%20web\%20coder\%20house\/Proyecto\/Proyecto\/scss\/estilos\.scss}line{font-family:\00003339}}
+  #firmwareArea img {
+    justify-self: center;
+    align-self: center; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/RFI4\/Documents\/za\/Curso\%20desarrollo\%20web\%20coder\%20house\/Proyecto\/Proyecto\/scss\/estilos\.scss}line{font-family:\00003326}}
+#webArea {
+  display: flex;
+  flex-direction: column;
+  border: solid #f0f0f0 3px;
+  margin: 30px;
+  padding: 0px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/RFI4\/Documents\/za\/Curso\%20desarrollo\%20web\%20coder\%20house\/Proyecto\/Proyecto\/scss\/estilos\.scss}line{font-family:\00003332}}
+  #webArea h3 {
+    border: solid #f0f0f0 3px;
+    background-color: #f0f0f0;
+    justify-self: stretch;
+    align-self: stretch;
+    text-align: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/RFI4\/Documents\/za\/Curso\%20desarrollo\%20web\%20coder\%20house\/Proyecto\/Proyecto\/scss\/estilos\.scss}line{font-family:\00003339}}
+  #webArea img {
+    justify-self: center;
+    align-self: center; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/RFI4\/Documents\/za\/Curso\%20desarrollo\%20web\%20coder\%20house\/Proyecto\/Proyecto\/scss\/estilos\.scss}line{font-family:\00003346}}
+.boxTestimonios {
+  display: flex;
+  flex-direction: column;
+  height: 250px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/RFI4\/Documents\/za\/Curso\%20desarrollo\%20web\%20coder\%20house\/Proyecto\/Proyecto\/scss\/estilos\.scss}line{font-family:\00003350}}
+  .boxTestimonios h3 {
+    color: black;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 25px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/RFI4\/Documents\/za\/Curso\%20desarrollo\%20web\%20coder\%20house\/Proyecto\/Proyecto\/scss\/estilos\.scss}line{font-family:\00003355}}
+  .boxTestimonios h4 {
+    color: black;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 20px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/RFI4\/Documents\/za\/Curso\%20desarrollo\%20web\%20coder\%20house\/Proyecto\/Proyecto\/scss\/estilos\.scss}line{font-family:\00003360}}
+  .boxTestimonios p {
+    color: black;
+    font-family: "IBM Plex Sans", sans-serif;
+    line-height: 1.6;
+    font-size: 15px;
+    overflow: auto; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/RFI4\/Documents\/za\/Curso\%20desarrollo\%20web\%20coder\%20house\/Proyecto\/Proyecto\/scss\/estilos\.scss}line{font-family:\00003369}}
+.blog .carousel-indicators {
+  left: 0;
+  top: auto;
+  bottom: -40px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/RFI4\/Documents\/za\/Curso\%20desarrollo\%20web\%20coder\%20house\/Proyecto\/Proyecto\/scss\/estilos\.scss}line{font-family:\00003376}}
+.blog .carousel-indicators li {
+  background: #a3a3a3;
+  border-radius: 50%;
+  width: 8px;
+  height: 8px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/RFI4\/Documents\/za\/Curso\%20desarrollo\%20web\%20coder\%20house\/Proyecto\/Proyecto\/scss\/estilos\.scss}line{font-family:\00003383}}
+.blog .carousel-indicators .active {
+  background: #707070; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/RFI4\/Documents\/za\/Curso\%20desarrollo\%20web\%20coder\%20house\/Proyecto\/Proyecto\/scss\/estilos\.scss}line{font-family:\00003387}}
+.formArea {
+  display: flex;
+  margin-bottom: 30px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/RFI4\/Documents\/za\/Curso\%20desarrollo\%20web\%20coder\%20house\/Proyecto\/Proyecto\/scss\/estilos\.scss}line{font-family:\00003390}}
+  .formArea .iconForm {
+    display: grid;
+    margin-bottom: 50px;
+    align-items: center;
+    justify-items: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/RFI4\/Documents\/za\/Curso\%20desarrollo\%20web\%20coder\%20house\/Proyecto\/Proyecto\/scss\/estilos\.scss}line{font-family:\00003396}}
+    .formArea .iconForm h3 {
+      color: black;
+      font-family: "IBM Plex Sans", sans-serif;
+      font-size: 20px;
+      src: #f0f0f0; }
+
+/*# sourceMappingURL=estilos.css.map */
