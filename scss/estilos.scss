@@ -21,6 +21,16 @@ h1 {
     
 }
 
+@media(max-width:768px){
+  h1{
+    font-size: 30px;
+    align-self: center;
+    justify-self: center;
+  }
+  }
+
+
+
 h1:before {
     content: '';
     width: 100%;
@@ -50,7 +60,8 @@ header{
   background-repeat: no-repeat;
   background-size: cover;
   background-position:center;
-  height: 600px;
+  /*height: 600px;*/
+  padding-bottom: 150px;
 }
 
 .imgBackIndex{

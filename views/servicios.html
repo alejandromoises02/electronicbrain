@@ -37,7 +37,7 @@
         <header class="container d-flex justify-content-between">
           <h1>ELECTRONIC BRAIN</h1>
           <!--Barra de navegacion-->
-            <nav class="navbar navbar-expand-lg navbar-light">
+            <nav class="navbar navbar-expand-lg navbar-light d-none d-sm-block">
               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
@@ -65,6 +65,33 @@
             <a href="contacto.html" class="contactoBoton align-self-center">Contacto</a>
           <!--Fin Barra de navegacion-->
         </header>
+        <!--Barra de navegacion para moviles-->
+        <nav class="navbar navbar-expand-lg navbar-light d-block d-sm-none">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto d-flex align-items-center">
+              <li class="nav-item">
+                <a class="nav-link ColorText" href="../index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="sobre_nosotros.html">Sobre Nosotros</a>
+              </li>
+              <li class="nav-item dropdown active">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Nuestros Servicios<span class="sr-only">(current)</span></a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">Servicios</a>
+                  <a class="dropdown-item" href="#hardwareArea">Diseño Electrónico</a>
+                  <a class="dropdown-item" href="#firmwareArea">Desarrollo de Firmware</a>
+                  <a class="dropdown-item" href="#webArea">Desarrollo Web</a>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <!--Barra de navegacion para moviles-->
       </div>
       <!--Fin header-->
 
