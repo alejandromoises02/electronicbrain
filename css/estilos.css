@@ -1,4 +1,3 @@
-/* line 13, ../../Documents/za/Curso desarrollo web coder house/Proyecto/Proyecto/scss/estilos.scss */
 h1 {
   font-family: "IBM Plex Sans", sans-serif;
   font-size: 40px;
@@ -10,50 +9,52 @@ h1 {
 }
 
 @media (max-width: 768px) {
-  /* line 25, ../../Documents/za/Curso desarrollo web coder house/Proyecto/Proyecto/scss/estilos.scss */
   h1 {
     font-size: 30px;
-    align-self: center;
-    justify-self: center;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    -ms-grid-column-align: center;
+        justify-self: center;
   }
 }
 
 @media (max-width: 576px) {
-  /* line 33, ../../Documents/za/Curso desarrollo web coder house/Proyecto/Proyecto/scss/estilos.scss */
   h1 {
     font-size: 20px;
-    align-self: center;
-    justify-self: center;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    -ms-grid-column-align: center;
+        justify-self: center;
   }
 }
 
-/* line 41, ../../Documents/za/Curso desarrollo web coder house/Proyecto/Proyecto/scss/estilos.scss */
 h1:before {
   content: '';
   width: 100%;
   height: 100%;
+  background: -webkit-gradient(linear, left top, right top, from(#0575E6), to(#00F260));
   background: linear-gradient(to right, #0575E6, #00F260);
   mix-blend-mode: screen;
   position: absolute;
 }
 
-/* line 50, ../../Documents/za/Curso desarrollo web coder house/Proyecto/Proyecto/scss/estilos.scss */
 header {
+  display: -ms-grid;
   display: grid;
-  grid-template-columns: 5fr 6fr 1fr;
+  -ms-grid-columns: 5fr 6fr 1fr;
+      grid-template-columns: 5fr 6fr 1fr;
 }
 
-/* line 56, ../../Documents/za/Curso desarrollo web coder house/Proyecto/Proyecto/scss/estilos.scss */
 .fondoBlanco {
   background-color: #fff;
 }
 
-/* line 60, ../../Documents/za/Curso desarrollo web coder house/Proyecto/Proyecto/scss/estilos.scss */
 .ColorText {
   color: #0575E6 !important;
 }
 
-/* line 74, ../../Documents/za/Curso desarrollo web coder house/Proyecto/Proyecto/scss/estilos.scss */
 .imgBackIndex {
   background-image: url("../imagen/pcbfondo2.jpg");
   background-attachment: fixed;
@@ -64,7 +65,6 @@ header {
   padding-bottom: 150px;
 }
 
-/* line 78, ../../Documents/za/Curso desarrollo web coder house/Proyecto/Proyecto/scss/estilos.scss */
 .imgBackNosotros {
   background-image: url("../imagen/pcbfondo4.jpg");
   background-attachment: fixed;
@@ -75,7 +75,6 @@ header {
   padding-bottom: 150px;
 }
 
-/* line 82, ../../Documents/za/Curso desarrollo web coder house/Proyecto/Proyecto/scss/estilos.scss */
 .imgBackServicios {
   background-image: url("../imagen/pcbfondo3.jpg");
   background-attachment: fixed;
@@ -86,7 +85,6 @@ header {
   padding-bottom: 150px;
 }
 
-/* line 86, ../../Documents/za/Curso desarrollo web coder house/Proyecto/Proyecto/scss/estilos.scss */
 .imgBackContacto {
   background-image: url("../imagen/contacto.jpg");
   background-attachment: fixed;
@@ -97,19 +95,16 @@ header {
   padding-bottom: 150px;
 }
 
-/* line 91, ../../Documents/za/Curso desarrollo web coder house/Proyecto/Proyecto/scss/estilos.scss */
 a {
   font-family: "Poppins", sans-serif;
 }
 
-/* line 95, ../../Documents/za/Curso desarrollo web coder house/Proyecto/Proyecto/scss/estilos.scss */
 .heroInicio {
   height: 650px;
   padding-top: 200px;
   padding-bottom: 100px;
 }
 
-/* line 99, ../../Documents/za/Curso desarrollo web coder house/Proyecto/Proyecto/scss/estilos.scss */
 .heroInicio h3 {
   color: #fff;
   font-size: 24px;
@@ -117,14 +112,12 @@ a {
   margin-bottom: 20px;
 }
 
-/* line 105, ../../Documents/za/Curso desarrollo web coder house/Proyecto/Proyecto/scss/estilos.scss */
 .heroInicio h2 {
   color: #fff;
   font-size: 48px;
   font-family: "Poppins", sans-serif;
 }
 
-/* line 112, ../../Documents/za/Curso desarrollo web coder house/Proyecto/Proyecto/scss/estilos.scss */
 .contactoBoton {
   background: #0575E6;
   font-family: "Raleway", sans-serif;
@@ -134,12 +127,15 @@ a {
   margin-top: 5px;
   margin-bottom: 5px;
   font-size: 15px;
+  -webkit-transition: all 2s;
   transition: all 2s;
-  align-self: center;
-  justify-self: center;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  -ms-grid-column-align: center;
+      justify-self: center;
 }
 
-/* line 127, ../../Documents/za/Curso desarrollo web coder house/Proyecto/Proyecto/scss/estilos.scss */
 .contactoBotonHero {
   background-color: rgba(163, 174, 238, 0.5);
   border: solid 2px #0575E6;
@@ -150,34 +146,32 @@ a {
   border-radius: 50px;
   padding: 10px 20px 10px 20px;
   margin-top: 20px;
+  -webkit-transition: all 2s;
   transition: all 2s;
 }
 
-/* line 140, ../../Documents/za/Curso desarrollo web coder house/Proyecto/Proyecto/scss/estilos.scss */
 .contactoBoton:hover {
+  background: -webkit-gradient(linear, left top, right top, color-stop(40%, #0575E6), to(#00F260));
   background: linear-gradient(to right, #0575E6 40%, #00F260);
   color: #fff;
 }
 
-/* line 145, ../../Documents/za/Curso desarrollo web coder house/Proyecto/Proyecto/scss/estilos.scss */
 .contactoBotonHero:hover {
+  background: -webkit-gradient(linear, left top, right top, color-stop(40%, #0575E6), to(#00F260));
   background: linear-gradient(to right, #0575E6 40%, #00F260);
   color: #fff;
 }
 
-/* line 150, ../../Documents/za/Curso desarrollo web coder house/Proyecto/Proyecto/scss/estilos.scss */
 .tituloPrincipal {
   padding-top: 160px;
 }
 
-/* line 152, ../../Documents/za/Curso desarrollo web coder house/Proyecto/Proyecto/scss/estilos.scss */
 .tituloPrincipal h2 {
   color: #fff;
   font-size: 55px;
   font-family: "Poppins", sans-serif;
 }
 
-/* line 157, ../../Documents/za/Curso desarrollo web coder house/Proyecto/Proyecto/scss/estilos.scss */
 .tituloPrincipal h4 {
   color: #fff;
   font-size: 24px;
@@ -185,20 +179,17 @@ a {
   margin-bottom: 20px;
 }
 
-/* line 163, ../../Documents/za/Curso desarrollo web coder house/Proyecto/Proyecto/scss/estilos.scss */
 .tituloPrincipal h3 {
   color: #fff;
   font-size: 40px;
   font-family: "Poppins", sans-serif;
 }
 
-/* line 170, ../../Documents/za/Curso desarrollo web coder house/Proyecto/Proyecto/scss/estilos.scss */
 .tituloMain {
   margin-bottom: 40px;
   margin-top: 40px;
 }
 
-/* line 174, ../../Documents/za/Curso desarrollo web coder house/Proyecto/Proyecto/scss/estilos.scss */
 .tituloMain h2 {
   font-size: 14px;
   font-weight: 500;
@@ -210,14 +201,12 @@ a {
   font-family: "Poppins", sans-serif;
 }
 
-/* line 185, ../../Documents/za/Curso desarrollo web coder house/Proyecto/Proyecto/scss/estilos.scss */
 .tituloMain h3 {
   letter-spacing: 2px;
   color: #000;
   font-family: "Poppins", sans-serif;
 }
 
-/* line 191, ../../Documents/za/Curso desarrollo web coder house/Proyecto/Proyecto/scss/estilos.scss */
 .tituloMain h2::after {
   content: "";
   width: 120px;
@@ -227,15 +216,20 @@ a {
   margin: 4px 10px;
 }
 
-/* line 200, ../../Documents/za/Curso desarrollo web coder house/Proyecto/Proyecto/scss/estilos.scss */
 .marketingArea {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   padding: 10px;
 }
 
-/* line 205, ../../Documents/za/Curso desarrollo web coder house/Proyecto/Proyecto/scss/estilos.scss */
 .marketingArea h3 {
   border-radius: 5px;
   background-color: #f0f0f0;
@@ -246,14 +240,12 @@ a {
   font-family: "Poppins", sans-serif;
 }
 
-/* line 214, ../../Documents/za/Curso desarrollo web coder house/Proyecto/Proyecto/scss/estilos.scss */
 .marketingArea h4 {
   text-align: center;
   margin-bottom: 10px;
   font-family: "IBM Plex Sans", sans-serif;
 }
 
-/* line 219, ../../Documents/za/Curso desarrollo web coder house/Proyecto/Proyecto/scss/estilos.scss */
 .marketingArea p {
   color: black;
   font-family: "IBM Plex Sans", sans-serif;
@@ -264,34 +256,41 @@ a {
   height: 150px;
 }
 
-/* line 230, ../../Documents/za/Curso desarrollo web coder house/Proyecto/Proyecto/scss/estilos.scss */
 .iconBox {
   font-family: "Poppins", sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: 0.5s;
   transition: 0.5s;
   border: 1px solid #f0f0f0;
   margin-bottom: 20px;
 }
 
-/* line 239, ../../Documents/za/Curso desarrollo web coder house/Proyecto/Proyecto/scss/estilos.scss */
 .iconBox:hover {
   border-color: #00F260;
   color: #00F260;
 }
 
-/* line 244, ../../Documents/za/Curso desarrollo web coder house/Proyecto/Proyecto/scss/estilos.scss */
 .iconContacto {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   font-family: "Raleway", sans-serif;
   margin-top: 40px;
   margin-bottom: 40px;
   font-size: 20px;
 }
 
-/* line 254, ../../Documents/za/Curso desarrollo web coder house/Proyecto/Proyecto/scss/estilos.scss */
 footer {
   background-color: #252525;
   color: #fff;
@@ -301,51 +300,58 @@ footer {
   padding-top: 30px;
 }
 
-/* line 261, ../../Documents/za/Curso desarrollo web coder house/Proyecto/Proyecto/scss/estilos.scss */
 footer h2 {
   font-size: 20px;
   margin-bottom: 30px;
 }
 
-/* line 265, ../../Documents/za/Curso desarrollo web coder house/Proyecto/Proyecto/scss/estilos.scss */
 footer p {
   font-size: 15px;
 }
 
-/* line 268, ../../Documents/za/Curso desarrollo web coder house/Proyecto/Proyecto/scss/estilos.scss */
 footer a {
   color: #0575E6;
 }
 
-/* line 271, ../../Documents/za/Curso desarrollo web coder house/Proyecto/Proyecto/scss/estilos.scss */
 footer .listSecciones {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
-/* line 277, ../../Documents/za/Curso desarrollo web coder house/Proyecto/Proyecto/scss/estilos.scss */
 .biggerBlock {
   background-color: #0575E6;
   border: solid #0575E6 3px;
   border-radius: 5px;
 }
 
-/* line 283, ../../Documents/za/Curso desarrollo web coder house/Proyecto/Proyecto/scss/estilos.scss */
 .smallerBlock {
   border: solid #f0f0f0 3px;
   border-radius: 5px;
 }
 
-/* line 288, ../../Documents/za/Curso desarrollo web coder house/Proyecto/Proyecto/scss/estilos.scss */
 .conocenosArea {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  align-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
 }
 
-/* line 294, ../../Documents/za/Curso desarrollo web coder house/Proyecto/Proyecto/scss/estilos.scss */
 .conocenosArea h3 {
   border-radius: 5px;
   text-align: center;
@@ -354,7 +360,6 @@ footer .listSecciones {
   font-family: "Poppins", sans-serif;
 }
 
-/* line 301, ../../Documents/za/Curso desarrollo web coder house/Proyecto/Proyecto/scss/estilos.scss */
 .conocenosArea p {
   color: black;
   font-family: "IBM Plex Sans", sans-serif;
@@ -363,32 +368,39 @@ footer .listSecciones {
   line-height: 1.6;
 }
 
-/* line 310, ../../Documents/za/Curso desarrollo web coder house/Proyecto/Proyecto/scss/estilos.scss */
 .iconElec {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   font-family: "Raleway", sans-serif;
   margin-top: 40px;
   margin-bottom: 40px;
   font-size: 20px;
 }
 
-/* line 319, ../../Documents/za/Curso desarrollo web coder house/Proyecto/Proyecto/scss/estilos.scss */
 .teamArea {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   border: solid #f0f0f0 1px;
   border-radius: 5px;
 }
 
-/* line 325, ../../Documents/za/Curso desarrollo web coder house/Proyecto/Proyecto/scss/estilos.scss */
 .teamArea h4 {
   text-align: center;
   font-family: "IBM Plex Sans", sans-serif;
 }
 
-/* line 329, ../../Documents/za/Curso desarrollo web coder house/Proyecto/Proyecto/scss/estilos.scss */
 .teamArea p {
   color: black;
   font-family: "IBM Plex Sans", sans-serif;
@@ -398,106 +410,130 @@ footer .listSecciones {
   text-align: center;
 }
 
-/* line 337, ../../Documents/za/Curso desarrollo web coder house/Proyecto/Proyecto/scss/estilos.scss */
 .teamArea .in {
   height: 30px;
   width: 40px;
 }
 
-/* line 344, ../../Documents/za/Curso desarrollo web coder house/Proyecto/Proyecto/scss/estilos.scss */
 #hardwareArea {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   border: solid #f0f0f0 3px;
   margin: 30px;
   padding: 0px;
 }
 
-/* line 350, ../../Documents/za/Curso desarrollo web coder house/Proyecto/Proyecto/scss/estilos.scss */
 #hardwareArea h3 {
   border: solid #f0f0f0 3px;
   background-color: #f0f0f0;
-  justify-self: stretch;
-  align-self: stretch;
+  -ms-grid-column-align: stretch;
+      justify-self: stretch;
+  -ms-flex-item-align: stretch;
+      -ms-grid-row-align: stretch;
+      align-self: stretch;
   text-align: center;
 }
 
-/* line 357, ../../Documents/za/Curso desarrollo web coder house/Proyecto/Proyecto/scss/estilos.scss */
 #hardwareArea img {
-  justify-self: center;
-  align-self: center;
+  -ms-grid-column-align: center;
+      justify-self: center;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
 }
 
-/* line 344, ../../Documents/za/Curso desarrollo web coder house/Proyecto/Proyecto/scss/estilos.scss */
 #firmwareArea {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   border: solid #f0f0f0 3px;
   margin: 30px;
   padding: 0px;
 }
 
-/* line 350, ../../Documents/za/Curso desarrollo web coder house/Proyecto/Proyecto/scss/estilos.scss */
 #firmwareArea h3 {
   border: solid #f0f0f0 3px;
   background-color: #f0f0f0;
-  justify-self: stretch;
-  align-self: stretch;
+  -ms-grid-column-align: stretch;
+      justify-self: stretch;
+  -ms-flex-item-align: stretch;
+      -ms-grid-row-align: stretch;
+      align-self: stretch;
   text-align: center;
 }
 
-/* line 357, ../../Documents/za/Curso desarrollo web coder house/Proyecto/Proyecto/scss/estilos.scss */
 #firmwareArea img {
-  justify-self: center;
-  align-self: center;
+  -ms-grid-column-align: center;
+      justify-self: center;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
 }
 
-/* line 344, ../../Documents/za/Curso desarrollo web coder house/Proyecto/Proyecto/scss/estilos.scss */
 #webArea {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   border: solid #f0f0f0 3px;
   margin: 30px;
   padding: 0px;
 }
 
-/* line 350, ../../Documents/za/Curso desarrollo web coder house/Proyecto/Proyecto/scss/estilos.scss */
 #webArea h3 {
   border: solid #f0f0f0 3px;
   background-color: #f0f0f0;
-  justify-self: stretch;
-  align-self: stretch;
+  -ms-grid-column-align: stretch;
+      justify-self: stretch;
+  -ms-flex-item-align: stretch;
+      -ms-grid-row-align: stretch;
+      align-self: stretch;
   text-align: center;
 }
 
-/* line 357, ../../Documents/za/Curso desarrollo web coder house/Proyecto/Proyecto/scss/estilos.scss */
 #webArea img {
-  justify-self: center;
-  align-self: center;
+  -ms-grid-column-align: center;
+      justify-self: center;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
 }
 
-/* line 364, ../../Documents/za/Curso desarrollo web coder house/Proyecto/Proyecto/scss/estilos.scss */
 .boxTestimonios {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   height: 250px;
 }
 
-/* line 368, ../../Documents/za/Curso desarrollo web coder house/Proyecto/Proyecto/scss/estilos.scss */
 .boxTestimonios h3 {
   color: black;
   font-family: "IBM Plex Sans", sans-serif;
   font-size: 25px;
 }
 
-/* line 373, ../../Documents/za/Curso desarrollo web coder house/Proyecto/Proyecto/scss/estilos.scss */
 .boxTestimonios h4 {
   color: black;
   font-family: "IBM Plex Sans", sans-serif;
   font-size: 20px;
 }
 
-/* line 378, ../../Documents/za/Curso desarrollo web coder house/Proyecto/Proyecto/scss/estilos.scss */
 .boxTestimonios p {
   color: black;
   font-family: "IBM Plex Sans", sans-serif;
@@ -506,14 +542,12 @@ footer .listSecciones {
   overflow: auto;
 }
 
-/* line 387, ../../Documents/za/Curso desarrollo web coder house/Proyecto/Proyecto/scss/estilos.scss */
 .blog .carousel-indicators {
   left: 0;
   top: auto;
   bottom: -40px;
 }
 
-/* line 394, ../../Documents/za/Curso desarrollo web coder house/Proyecto/Proyecto/scss/estilos.scss */
 .blog .carousel-indicators li {
   background: #a3a3a3;
   border-radius: 50%;
@@ -521,30 +555,30 @@ footer .listSecciones {
   height: 8px;
 }
 
-/* line 401, ../../Documents/za/Curso desarrollo web coder house/Proyecto/Proyecto/scss/estilos.scss */
 .blog .carousel-indicators .active {
   background: #707070;
 }
 
-/* line 405, ../../Documents/za/Curso desarrollo web coder house/Proyecto/Proyecto/scss/estilos.scss */
 .formArea {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   margin-bottom: 30px;
 }
 
-/* line 408, ../../Documents/za/Curso desarrollo web coder house/Proyecto/Proyecto/scss/estilos.scss */
 .formArea .iconForm {
+  display: -ms-grid;
   display: grid;
   margin-bottom: 50px;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   justify-items: center;
 }
 
-/* line 414, ../../Documents/za/Curso desarrollo web coder house/Proyecto/Proyecto/scss/estilos.scss */
 .formArea .iconForm h3 {
   color: black;
   font-family: "IBM Plex Sans", sans-serif;
   font-size: 20px;
 }
-
 /*# sourceMappingURL=estilos.css.map */
