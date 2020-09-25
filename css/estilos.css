@@ -61,7 +61,6 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  /*height: 600px;*/
   padding-bottom: 150px;
 }
 
@@ -71,7 +70,6 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  /*height: 600px;*/
   padding-bottom: 150px;
 }
 
@@ -81,7 +79,6 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  /*height: 600px;*/
   padding-bottom: 150px;
 }
 
@@ -91,7 +88,6 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  /*height: 600px;*/
   padding-bottom: 150px;
 }
 
@@ -334,7 +330,7 @@ footer .listSecciones {
   border-radius: 5px;
 }
 
-.conocenosArea {
+.conocenosArea, .conocenosAreaBlue {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -350,9 +346,10 @@ footer .listSecciones {
           align-items: center;
   -ms-flex-line-pack: center;
       align-content: center;
+  text-align: justify;
 }
 
-.conocenosArea h3 {
+.conocenosArea h3, .conocenosAreaBlue h3 {
   border-radius: 5px;
   text-align: center;
   margin-bottom: 20px;
@@ -360,12 +357,24 @@ footer .listSecciones {
   font-family: "Poppins", sans-serif;
 }
 
-.conocenosArea p {
+.conocenosArea p, .conocenosAreaBlue p {
   color: black;
   font-family: "IBM Plex Sans", sans-serif;
   padding: 10px;
   margin: 10px;
   line-height: 1.6;
+}
+
+.conocenosArea .textoInicioCentrado, .conocenosAreaBlue .textoInicioCentrado {
+  text-align: center;
+}
+
+.conocenosAreaBlue h3 {
+  color: #fff;
+}
+
+.conocenosAreaBlue p {
+  color: #fff;
 }
 
 .iconElec {
@@ -378,7 +387,11 @@ footer .listSecciones {
   font-family: "Raleway", sans-serif;
   margin-top: 40px;
   margin-bottom: 40px;
-  font-size: 20px;
+}
+
+.iconElec p {
+  font-size: 23px;
+  text-align: justify;
 }
 
 .teamArea {
@@ -429,6 +442,9 @@ footer .listSecciones {
 }
 
 #hardwareArea h3 {
+  font-family: "Raleway", sans-serif;
+  font-size: 40px;
+  font-weight: bold;
   border: solid #f0f0f0 3px;
   background-color: #f0f0f0;
   -ms-grid-column-align: stretch;
@@ -445,6 +461,16 @@ footer .listSecciones {
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
+  width: 600px;
+  margin-bottom: 15px;
+}
+
+#hardwareArea p {
+  color: black;
+  font-family: "IBM Plex Sans", sans-serif;
+  padding-left: 10px;
+  padding-right: 10px;
+  line-height: 1.6;
 }
 
 #firmwareArea {
@@ -461,6 +487,9 @@ footer .listSecciones {
 }
 
 #firmwareArea h3 {
+  font-family: "Raleway", sans-serif;
+  font-size: 40px;
+  font-weight: bold;
   border: solid #f0f0f0 3px;
   background-color: #f0f0f0;
   -ms-grid-column-align: stretch;
@@ -477,6 +506,16 @@ footer .listSecciones {
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
+  width: 600px;
+  margin-bottom: 15px;
+}
+
+#firmwareArea p {
+  color: black;
+  font-family: "IBM Plex Sans", sans-serif;
+  padding-left: 10px;
+  padding-right: 10px;
+  line-height: 1.6;
 }
 
 #webArea {
@@ -493,6 +532,9 @@ footer .listSecciones {
 }
 
 #webArea h3 {
+  font-family: "Raleway", sans-serif;
+  font-size: 40px;
+  font-weight: bold;
   border: solid #f0f0f0 3px;
   background-color: #f0f0f0;
   -ms-grid-column-align: stretch;
@@ -509,6 +551,16 @@ footer .listSecciones {
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
+  width: 600px;
+  margin-bottom: 15px;
+}
+
+#webArea p {
+  color: black;
+  font-family: "IBM Plex Sans", sans-serif;
+  padding-left: 10px;
+  padding-right: 10px;
+  line-height: 1.6;
 }
 
 .boxTestimonios {

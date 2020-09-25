@@ -67,7 +67,6 @@ header{
   background-repeat: no-repeat;
   background-size: cover;
   background-position:center;
-  /*height: 600px;*/
   padding-bottom: 150px;
 }
 
@@ -291,6 +290,7 @@ footer{
   justify-content: center;
   align-items: center;
   align-content: center;
+  text-align: justify;
   h3{
   border-radius: 5px;
   text-align: center;
@@ -305,6 +305,19 @@ footer{
     margin: 10px;
     line-height: 1.6;
 }
+.textoInicioCentrado{
+  text-align: center;
+}
+}
+
+.conocenosAreaBlue{
+ @extend .conocenosArea;
+ h3{
+  color: $blanco;
+ }
+ p{
+  color: $blanco;
+ }
 }
 
 .iconElec{
@@ -313,7 +326,10 @@ footer{
   font-family: $Raleway;
   margin-top: 40px;
   margin-bottom: 40px;
-  font-size: 20px;
+  p{
+    font-size: 23px;
+    text-align: justify;
+  }
 }
 
 .teamArea{
@@ -348,15 +364,28 @@ footer{
     margin: 30px;
     padding: 0px;
     h3{
+      font-family: $Raleway;
+      font-size: 40px;
+      font-weight: bold;
       border: solid $gris 3px;
       background-color: $gris;
       justify-self: stretch;
       align-self: stretch;
       text-align: center;
+
     }
     img{
       justify-self: center;
       align-self: center;
+      width: 600px;
+      margin-bottom: 15px;
+    }
+    p{
+      color: black;
+      font-family: $IBM;
+      padding-left:10px;
+      padding-right:10px;
+      line-height: 1.6;
     }
   }
 }
