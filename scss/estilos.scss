@@ -62,12 +62,16 @@ header{
 }
 
 @mixin imgBack($ref) {
-  background-image: url($ref);
+  background-image: linear-gradient(
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)
+  ),url($ref);
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
   background-position:center;
   padding-bottom: 150px;
+  background-color: rgba(0,0,0,0.6);
 }
 
 .imgBackIndex{
@@ -166,9 +170,19 @@ a{
   }
 }
 
+/*.tituloPrincipal:before{
+  content:'';
+	position: absolute;
+  top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(0,0,0,0.6);
+}*/
+
 .tituloMain{
-  margin-bottom: 40px;
-  margin-top: 40px;
+  margin-bottom: 60px;
+  margin-top: 60px;
 }
 .tituloMain h2 {
   font-size: 14px;
@@ -235,6 +249,8 @@ a{
     margin-bottom: 20px;
 }
 
+
+
 .iconBox:hover {
     border-color: $verde;
     color: $verde;
@@ -245,8 +261,8 @@ a{
   align-items: center;
   justify-content: center;
   font-family: $Raleway;
-  margin-top: 40px;
-  margin-bottom: 40px;
+  margin-top: 60px;
+  margin-bottom: 60px;
   font-size: 20px;
 }
 
@@ -341,6 +357,7 @@ footer{
   h4{
     text-align: center;
     font-family: $IBM;
+    margin-top: 20px;
   }
   p{
     color: black;
@@ -361,7 +378,7 @@ footer{
     display: flex;
     flex-direction: column;
     border: solid $gris 3px;
-    margin: 30px;
+    margin: 80px;
     padding: 0px;
     h3{
       font-family: $Raleway;
@@ -386,6 +403,9 @@ footer{
       padding-left:10px;
       padding-right:10px;
       line-height: 1.6;
+      text-align: justify;
+      padding: 70px;
+      
     }
   }
 }

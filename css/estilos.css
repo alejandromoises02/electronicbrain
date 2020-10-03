@@ -56,39 +56,47 @@ header {
 }
 
 .imgBackIndex {
-  background-image: url("../imagen/pcbfondo2.jpg");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("../imagen/pcbfondo2.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../imagen/pcbfondo2.jpg");
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   padding-bottom: 150px;
+  background-color: rgba(0, 0, 0, 0.6);
 }
 
 .imgBackNosotros {
-  background-image: url("../imagen/pcbfondo4.jpg");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("../imagen/pcbfondo4.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../imagen/pcbfondo4.jpg");
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   padding-bottom: 150px;
+  background-color: rgba(0, 0, 0, 0.6);
 }
 
 .imgBackServicios {
-  background-image: url("../imagen/pcbfondo3.jpg");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("../imagen/pcbfondo3.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../imagen/pcbfondo3.jpg");
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   padding-bottom: 150px;
+  background-color: rgba(0, 0, 0, 0.6);
 }
 
 .imgBackContacto {
-  background-image: url("../imagen/contacto.jpg");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("../imagen/contacto.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../imagen/contacto.jpg");
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   padding-bottom: 150px;
+  background-color: rgba(0, 0, 0, 0.6);
 }
 
 a {
@@ -181,9 +189,18 @@ a {
   font-family: "Poppins", sans-serif;
 }
 
+/*.tituloPrincipal:before{
+  content:'';
+	position: absolute;
+  top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(0,0,0,0.6);
+}*/
 .tituloMain {
-  margin-bottom: 40px;
-  margin-top: 40px;
+  margin-bottom: 60px;
+  margin-top: 60px;
 }
 
 .tituloMain h2 {
@@ -282,8 +299,8 @@ a {
       -ms-flex-pack: center;
           justify-content: center;
   font-family: "Raleway", sans-serif;
-  margin-top: 40px;
-  margin-bottom: 40px;
+  margin-top: 60px;
+  margin-bottom: 60px;
   font-size: 20px;
 }
 
@@ -412,6 +429,7 @@ footer .listSecciones {
 .teamArea h4 {
   text-align: center;
   font-family: "IBM Plex Sans", sans-serif;
+  margin-top: 20px;
 }
 
 .teamArea p {
@@ -437,7 +455,7 @@ footer .listSecciones {
       -ms-flex-direction: column;
           flex-direction: column;
   border: solid #f0f0f0 3px;
-  margin: 30px;
+  margin: 80px;
   padding: 0px;
 }
 
@@ -471,6 +489,8 @@ footer .listSecciones {
   padding-left: 10px;
   padding-right: 10px;
   line-height: 1.6;
+  text-align: justify;
+  padding: 70px;
 }
 
 #firmwareArea {
@@ -482,7 +502,7 @@ footer .listSecciones {
       -ms-flex-direction: column;
           flex-direction: column;
   border: solid #f0f0f0 3px;
-  margin: 30px;
+  margin: 80px;
   padding: 0px;
 }
 
@@ -516,6 +536,8 @@ footer .listSecciones {
   padding-left: 10px;
   padding-right: 10px;
   line-height: 1.6;
+  text-align: justify;
+  padding: 70px;
 }
 
 #webArea {
@@ -527,7 +549,7 @@ footer .listSecciones {
       -ms-flex-direction: column;
           flex-direction: column;
   border: solid #f0f0f0 3px;
-  margin: 30px;
+  margin: 80px;
   padding: 0px;
 }
 
@@ -561,6 +583,8 @@ footer .listSecciones {
   padding-left: 10px;
   padding-right: 10px;
   line-height: 1.6;
+  text-align: justify;
+  padding: 70px;
 }
 
 .boxTestimonios {
