@@ -451,7 +451,7 @@ footer .listSecciones {
       -ms-flex-direction: column;
           flex-direction: column;
   border: solid #f0f0f0 3px;
-  margin: 80px;
+  /*margin: 80px;*/
 }
 
 #hardwareArea h3 {
@@ -509,7 +509,7 @@ footer .listSecciones {
       -ms-flex-direction: column;
           flex-direction: column;
   border: solid #f0f0f0 3px;
-  margin: 80px;
+  /*margin: 80px;*/
 }
 
 #firmwareArea h3 {
@@ -567,7 +567,7 @@ footer .listSecciones {
       -ms-flex-direction: column;
           flex-direction: column;
   border: solid #f0f0f0 3px;
-  margin: 80px;
+  /*margin: 80px;*/
 }
 
 #webArea h3 {
