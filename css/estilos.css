@@ -189,15 +189,6 @@ a {
   font-family: "Poppins", sans-serif;
 }
 
-/*.tituloPrincipal:before{
-  content:'';
-	position: absolute;
-  top: 0;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	background-color: rgba(0,0,0,0.6);
-}*/
 .tituloMain {
   margin-bottom: 60px;
   margin-top: 60px;
@@ -461,7 +452,6 @@ footer .listSecciones {
           flex-direction: column;
   border: solid #f0f0f0 3px;
   margin: 80px;
-  padding: 0px;
 }
 
 #hardwareArea h3 {
@@ -498,6 +488,18 @@ footer .listSecciones {
   padding: 70px;
 }
 
+@media (max-width: 576px) {
+  #hardwareArea p {
+    padding: 4px;
+  }
+}
+
+@media (max-width: 576px) {
+  #hardwareArea h3 {
+    font-size: 20px;
+  }
+}
+
 #firmwareArea {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -508,7 +510,6 @@ footer .listSecciones {
           flex-direction: column;
   border: solid #f0f0f0 3px;
   margin: 80px;
-  padding: 0px;
 }
 
 #firmwareArea h3 {
@@ -545,6 +546,18 @@ footer .listSecciones {
   padding: 70px;
 }
 
+@media (max-width: 576px) {
+  #firmwareArea p {
+    padding: 4px;
+  }
+}
+
+@media (max-width: 576px) {
+  #firmwareArea h3 {
+    font-size: 20px;
+  }
+}
+
 #webArea {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -555,7 +568,6 @@ footer .listSecciones {
           flex-direction: column;
   border: solid #f0f0f0 3px;
   margin: 80px;
-  padding: 0px;
 }
 
 #webArea h3 {
@@ -590,6 +602,18 @@ footer .listSecciones {
   line-height: 1.6;
   text-align: justify;
   padding: 70px;
+}
+
+@media (max-width: 576px) {
+  #webArea p {
+    padding: 4px;
+  }
+}
+
+@media (max-width: 576px) {
+  #webArea h3 {
+    font-size: 20px;
+  }
 }
 
 .boxTestimonios {

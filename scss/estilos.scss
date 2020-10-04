@@ -170,20 +170,11 @@ a{
   }
 }
 
-/*.tituloPrincipal:before{
-  content:'';
-	position: absolute;
-  top: 0;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	background-color: rgba(0,0,0,0.6);
-}*/
-
 .tituloMain{
   margin-bottom: 60px;
   margin-top: 60px;
 }
+
 .tituloMain h2 {
   font-size: 14px;
   font-weight: 500;
@@ -384,7 +375,6 @@ footer{
     flex-direction: column;
     border: solid $gris 3px;
     margin: 80px;
-    padding: 0px;
     h3{
       font-family: $Raleway;
       font-size: 40px;
@@ -412,8 +402,20 @@ footer{
       padding: 70px;
       
     }
+    @media(max-width:576px){
+      p{
+        padding: 4px;
+      }
+    }
+    @media(max-width:576px){
+      h3{
+        font-size: 20px;
+      }
+    }
   }
 }
+
+
 
 .boxTestimonios{
   display: flex;
