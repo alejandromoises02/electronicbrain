@@ -262,8 +262,14 @@ a{
   justify-content: center;
   font-family: $Raleway;
   margin-top: 60px;
-  margin-bottom: 60px;
+  padding-top: 30px;
+  padding-bottom: 30px;
   font-size: 20px;
+}
+
+.preFoot{
+  background-color: rgba(2, 174, 253, 0.2);
+  padding-bottom: 30px;
 }
 
 footer{
@@ -271,7 +277,6 @@ footer{
   color: $blanco;
   font-family: $Poppins;
   text-align: center;
-  margin-top: 30px;
   padding-top: 30px;
   h2{
     font-size: 20px;

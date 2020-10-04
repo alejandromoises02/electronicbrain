@@ -300,8 +300,14 @@ a {
           justify-content: center;
   font-family: "Raleway", sans-serif;
   margin-top: 60px;
-  margin-bottom: 60px;
+  padding-top: 30px;
+  padding-bottom: 30px;
   font-size: 20px;
+}
+
+.preFoot {
+  background-color: rgba(2, 174, 253, 0.2);
+  padding-bottom: 30px;
 }
 
 footer {
@@ -309,7 +315,6 @@ footer {
   color: #fff;
   font-family: "Poppins", sans-serif;
   text-align: center;
-  margin-top: 30px;
   padding-top: 30px;
 }
 
