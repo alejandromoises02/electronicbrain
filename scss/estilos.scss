@@ -395,21 +395,26 @@ footer{
     p{
       color: black;
       font-family: $IBM;
-      padding-left:10px;
-      padding-right:10px;
       line-height: 1.6;
       text-align: justify;
-      padding: 70px;
-      
+      margin: 20px 70px 0px 70px;
+    }
+    .separacion{
+      margin-bottom: 40px;
     }
     @media(max-width:576px){
       p{
-        padding: 4px;
+        margin: 10px;
       }
     }
     @media(max-width:576px){
       h3{
         font-size: 20px;
+      }
+    }
+    @media(max-width:576px){
+      .separacion{
+        margin: 10px;
       }
     }
   }

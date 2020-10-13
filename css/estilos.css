@@ -481,22 +481,30 @@ footer .listSecciones {
 #hardwareArea p {
   color: black;
   font-family: "IBM Plex Sans", sans-serif;
-  padding-left: 10px;
-  padding-right: 10px;
   line-height: 1.6;
   text-align: justify;
-  padding: 70px;
+  margin: 20px 70px 0px 70px;
+}
+
+#hardwareArea .separacion {
+  margin-bottom: 40px;
 }
 
 @media (max-width: 576px) {
   #hardwareArea p {
-    padding: 4px;
+    margin: 10px;
   }
 }
 
 @media (max-width: 576px) {
   #hardwareArea h3 {
     font-size: 20px;
+  }
+}
+
+@media (max-width: 576px) {
+  #hardwareArea .separacion {
+    margin: 10px;
   }
 }
 
@@ -539,22 +547,30 @@ footer .listSecciones {
 #firmwareArea p {
   color: black;
   font-family: "IBM Plex Sans", sans-serif;
-  padding-left: 10px;
-  padding-right: 10px;
   line-height: 1.6;
   text-align: justify;
-  padding: 70px;
+  margin: 20px 70px 0px 70px;
+}
+
+#firmwareArea .separacion {
+  margin-bottom: 40px;
 }
 
 @media (max-width: 576px) {
   #firmwareArea p {
-    padding: 4px;
+    margin: 10px;
   }
 }
 
 @media (max-width: 576px) {
   #firmwareArea h3 {
     font-size: 20px;
+  }
+}
+
+@media (max-width: 576px) {
+  #firmwareArea .separacion {
+    margin: 10px;
   }
 }
 
@@ -597,22 +613,30 @@ footer .listSecciones {
 #webArea p {
   color: black;
   font-family: "IBM Plex Sans", sans-serif;
-  padding-left: 10px;
-  padding-right: 10px;
   line-height: 1.6;
   text-align: justify;
-  padding: 70px;
+  margin: 20px 70px 0px 70px;
+}
+
+#webArea .separacion {
+  margin-bottom: 40px;
 }
 
 @media (max-width: 576px) {
   #webArea p {
-    padding: 4px;
+    margin: 10px;
   }
 }
 
 @media (max-width: 576px) {
   #webArea h3 {
     font-size: 20px;
+  }
+}
+
+@media (max-width: 576px) {
+  #webArea .separacion {
+    margin: 10px;
   }
 }
 
